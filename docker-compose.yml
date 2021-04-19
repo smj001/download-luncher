@@ -1,0 +1,7 @@
+nginx:
+  image: nginx:latest
+  volumes:
+    - ./files:/files
+    - ./nginx.conf:/etc/nginx/nginx.conf:ro
+  ports:
+    - "6432:80"
