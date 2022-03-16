@@ -5,7 +5,7 @@ This project help you for download files with HTTP platform from server
 ## step1:
 Run ``docker-compose up -d`` command.
 ## step2:
-Put your file in ``./file`` directory.
+Put your file in ``./files`` directory.
 ## step3:
 Now you can downlaod your file at:
 ```http://YOUR_IP:6432/downloads/FILE_NAME```
