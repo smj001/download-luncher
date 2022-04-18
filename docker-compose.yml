@@ -4,4 +4,4 @@ nginx:
     - ./files:/files
     - ./nginx.conf:/etc/nginx/nginx.conf:ro
   ports:
-    - "6432:80"
+    - "${EXPOSE_PORT}:80"
