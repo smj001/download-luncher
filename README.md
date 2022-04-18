@@ -3,11 +3,11 @@ This project help you for download files with HTTP platform from server
 
 # How it works?
 ## step1:
-Run ``docker-compose up -d`` command.
+Make sure that you already have `docker` and `docker-compose` on your system.
 ## step2:
-Put your file in ``./files`` directory.
+Clone Project and run `./run.sh` bash file and enter your expose port.
 ## step3:
 Now you can downlaod your file at:
-```http://YOUR_IP:6432/downloads/FILE_NAME```
+```http://YOUR_IP:EXPOSE_PORT/downloads/FILE_NAME```
 
 ENJOY the world without HAMMALI!
